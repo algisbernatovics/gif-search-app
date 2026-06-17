@@ -1,12 +1,56 @@
-<img src="preview.png">
+# GIF Search App
 
-Simple page to fetch GIFS of your choice from GIPHY library
+A PHP web app for searching and displaying GIF results through a templated interface.
 
-## Getting started
+## Overview
 
-- run `composer install` to get necessary packages
-- rename `.envExample` to `.env`
-- get your API key from https://developers.giphy.com/ and paste it in `.env`
-- run `php -S localhost:7777` from project root to start server
-- click on site that appears in terminal to open it in browser
-- have fun!
+A PHP web app for searching and displaying GIF results through a templated interface.
+
+## Preview
+
+![GIF Search preview](./preview.png)
+
+## Features
+
+- Uses Guzzle for external API requests.
+- Routes requests with FastRoute.
+- Renders views with Twig templates.
+- Stores or records search results through model classes.
+- Includes a preview image.
+
+## Tech Stack
+
+- PHP
+- Composer
+- Guzzle
+- FastRoute
+- Twig
+- Dotenv
+
+## Project Structure
+
+- `index.php` - application entry point
+- `router.php` - local development router
+- `app/Controller/` - request controller
+- `app/Models/` - API and result handling
+- `app/Views/` - Twig templates
+
+## Getting Started
+
+Install dependencies and serve locally:
+
+```bash
+composer install
+php -S localhost:8000 router.php
+```
+
+Copy `.envExample` to `.env` and add any required API credentials.
+
+## Portfolio Notes
+
+- Shows a small MVC-style PHP app without a heavy framework.
+- Demonstrates API consumption, routing, and templating.
+
+## Status
+
+Portfolio-ready PHP web app.
