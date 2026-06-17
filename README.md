@@ -54,3 +54,7 @@ Copy `.envExample` to `.env` and add any required API credentials.
 ## Status
 
 Portfolio-ready PHP web app.
+
+## License
+
+MIT License. See [LICENSE](./LICENSE).
